@@ -53,19 +53,19 @@ p Statistic.create([
     }
 ])
 
-# p User.create([
-#     {
-#         username: "acurunner79",
-#         password: "1234",
-#         in_game_name: "Ninja Guiden V2",
-#         allegiance: "FK!T",
-#         keep_level: 30,
-#         house_level: 45,
-#         power_level: 174815270,
-#         building_power: 2964944,
-#         research_power: 3474695,
-#         troop_power: 155006045,
-#         dragon_talent_power: 600500,
-#         armory_power: 8118457
-#     }
-# ])
+p User.create([
+    {
+        username: "acurunner79",
+        password: "1234",
+        in_game_name: "Ninja Guiden V2",
+        allegiance: "FK!T",
+        keep_level: 30,
+        house_level: 45,
+        power_level: 174815270,
+        building_power: 2964944,
+        research_power: 3474695,
+        troop_power: 155006045,
+        dragon_talent_power: 600500,
+        armory_power: 8118457
+    }
+])
