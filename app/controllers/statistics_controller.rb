@@ -38,7 +38,8 @@ class StatisticsController < ApplicationController
 
   # DELETE /statistics/1
   def destroy
-    @statistic.destroy
+    statistic = Statistic.destroy(params[:id])
+    render(status: 204)
   end
 
   private
