@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  password: MyString
+  in_game_name: MyString
+  allegiance: MyString
+  keep_level: 1
+  house_level: 1
+  power_level: 1
+  building_power: 1
+  research_power: 1
+  troop_power: 1
+  dragon_talent_power: 1
+  armory_power: 1
+
+two:
+  username: MyString
+  password: MyString
+  in_game_name: MyString
+  allegiance: MyString
+  keep_level: 1
+  house_level: 1
+  power_level: 1
+  building_power: 1
+  research_power: 1
+  troop_power: 1
+  dragon_talent_power: 1
+  armory_power: 1
