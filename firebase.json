@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "gotc_app_api": "gotc_app_api",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -29,11 +29,6 @@ class StatisticsController < ApplicationController
     statistic = Statistic.find(params[:id])
     statistic.update(statistic_params)
     render(json: { statistic: statistic})
-    # if @statistic.update(statistic_params)
-    #   render json: @statistic
-    # else
-    #   render json: @statistic.errors, status: :unprocessable_entity
-    # end
   end
 
   # DELETE /statistics/1
